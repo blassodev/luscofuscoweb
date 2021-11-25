@@ -14,18 +14,18 @@ const NavBar = () => {
                 <img src="https://dummyimage.com/155x87/efd110/433945" alt="logo"/>
                 <SC.NavButtons>
                     <li>
-                        <Link>
+                        <Link to="/">
                             <span>
                                 Inicio
                             </span>
                         </Link>
                     </li>
-                    <li><Link to=""><span>Metodoloxía</span></Link></li>
-                    <li><Link to=""><span>Servizos</span></Link></li>
-                    <li><Link to=""><span>Aulas</span></Link></li>
-                    <li><Link to=""><span>Equipo</span></Link></li>
-                    <li><Link to=""><span>Galeria</span></Link></li>
-                    <li><Link to=""><span>Contacto</span></Link></li>
+                    <li><Link to="/metodoloxia"><span>Metodoloxía</span></Link></li>
+                    <li><Link to="/servizos"><span>Servizos</span></Link></li>
+                    <li><Link to="/aulas"><span>Aulas</span></Link></li>
+                    <li><Link to="/equipo"><span>Equipo</span></Link></li>
+                    <li><Link to="/galeria"><span>Galeria</span></Link></li>
+                    <li><Link to="/contacto"><span>Contacto</span></Link></li>
                 </SC.NavButtons>
             </SC.MainContainer>
 
