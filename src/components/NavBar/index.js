@@ -1,6 +1,7 @@
 import {Link} from "react-router-dom";
 import * as SC from './style';
 import {HelpOutline} from "@mui/icons-material";
+import logo from "../../img/logo.png"
 
 const NavBar = () => {
     return (
@@ -11,7 +12,7 @@ const NavBar = () => {
                 </div>
             </SC.PreNav>
             <SC.MainContainer>
-                <img src="https://dummyimage.com/155x87/efd110/433945" alt="logo"/>
+                <img src={logo} style={{width: "155px", height: "auto", padding: "10px 30px"}} alt="logo"/>
                 <SC.NavButtons>
                     <li>
                         <Link to="/">
