@@ -5,6 +5,8 @@ import NavBar from "./components/NavBar";
 import Contacto from "./pages/Contacto";
 import Metodoloxia from "./pages/Metodoloxia";
 import Servizos from "./pages/Servizos";
+import Galeria from "./pages/Galeria";
+import Pie from "./components/Pie";
 
 function App() {
   return (
@@ -15,7 +17,9 @@ function App() {
               <Route exact path="/contacto" component={Contacto}/>
               <Route exact path="/metodoloxia" component={Metodoloxia}/>
               <Route exact path="/servizos" component={Servizos}/>
+              <Route exact path="/galeria" component={Galeria}/>
         </Switch>
+          <Pie/>
       </Router>
   );
 }

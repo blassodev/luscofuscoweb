@@ -6,14 +6,13 @@ const Metodoloxia = () => {
         <SC.MainContainer>
             <p className="cite"> "Con cada paseo pola natureza obtense máis do que se ía buscando" </p>
             <div style={{width: "100%"}}>
-                <p>En líneas básicas nuestra pedagogía se define en:</p>
-                <SC.Title>-Tu hijo/a como protagonista de su aprendizaje.</SC.Title>
-                <SC.Content>Nuestro trabajo está orientado a proporcionar una atención individualizada y de máxima calidad a cada uno/a de “nuestros/as” niños y niñas.</SC.Content>
-                <SC.Title>-La importancia del espacio.</SC.Title>
-                <SC.Content>Nuestro proyecto se caracteriza por el cuidado en el diseño de los espacios y la atenta elección del mobiliario para que tu peque se sienta en su segundo hogar.
-                </SC.Content>
-                <SC.Title>-Acompañamiento respetuoso.</SC.Title>
-                <SC.Content>Entre todas velamos por el desarrollo armónico e integral de los/las niños/as, con la finalidad de cubrir todas las necesidades físicas, afectivas, emocionales, sociales e intelectuales de tu peque.</SC.Content>
+                <p>A nosa maneira de trabllar basase en tres grandes rasgos:</p>
+                <SC.Title>-As crianzas como protagonistas.</SC.Title>
+                <SC.Content>Nesta escola cada crianza desenvolverá todo o seu pontencial grazas a unha atención individualizada, adquirindo automía; pero, tamén unha boa relacción cos seus iguais.</SC.Content>
+                <SC.Title>-A natureza.</SC.Title>
+                <SC.Content>A naturaleza nos aporta unha gran fonte de estimulos os cales serán moi importantes para que as crianzas adquiran coñecementos do mundo que lles rodea.</SC.Content>
+                <SC.Title>-As educadoras e educadores.</SC.Title>
+                <SC.Content>O noso traballo será o de acompañar as crianzas durante o seu desenvolvemento, intervindo nos momentos necesarios e basándonos sobre todo na observación.  </SC.Content>
             </div>
 
         </SC.MainContainer>)

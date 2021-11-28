@@ -10,6 +10,10 @@ export const PreNav = styled.div`
   display: flex;
   flex-direction: column;
   border-bottom: 2px dotted #6c81f1;
+  a {
+    color: black;
+    text-decoration: none;
+  }
 `;
 
 
