@@ -4,6 +4,16 @@ export const MainContainer = styled.nav`
   display: flex;
   justify-content: space-between;
   padding-top: 10px;
+  img {
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+    &:hover {
+      transform: translateY(-5px);
+    }
+    &:active {
+      transform: translateY(5px);
+    }
+  }
 `;
 
 export const PreNav = styled.div`

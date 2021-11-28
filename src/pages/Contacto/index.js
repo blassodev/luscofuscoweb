@@ -8,8 +8,8 @@ const Contacto = () => {
     return(
     <SC.MainContainer>
         <SC.TesDubidas>
-            <Typography>TES DÚBIDAS?</Typography>
-            <Typography style={{paddingTop: 10}} variant="h2">CONTÁCTANOS</Typography>
+            <p>TES DÚBIDAS?</p>
+            <h1 style={{paddingTop: 10, color: '#6D80F1'}} variant="h2">CONTÁCTANOS</h1>
         </SC.TesDubidas>
         <SC.ThreeIcons>
             <div>
