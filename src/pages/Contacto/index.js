@@ -15,17 +15,17 @@ const Contacto = () => {
             <div>
                 <img src={email} alt=""/>
                 <h2>Escríbenos</h2>
-                <Typography>lorem@ipsum.com</Typography>
+                <Typography>info@luscofusco.com</Typography>
             </div>
             <div>
                 <img src={telfo} alt=""/>
                 <h2>Chamanos</h2>
-                <Typography>600000000</Typography>
+                <Typography>666 66 66 66</Typography>
             </div>
             <div>
                 <img src={location} alt=""/>
                 <h2>Visítanos</h2>
-                <Typography>Rúa Velas vir N89</Typography>
+                <Typography>Rúa Antonio Palacios, A-55, Km 305, 36400 O Porriño</Typography>
             </div>
         </SC.ThreeIcons>
     </SC.MainContainer>)
